@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #E6E6E6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+  z-index: 1;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  color: #2b2b2b;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 10px ;
+}
+
+#header .logo h2 {
+  font-size: 28px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  color: #32C2CD;
+  transition: 0.5s;
+}
+
+ 
+
+#header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 250px;
+  align-items: center;
+}
+
+#header ul li {
+  margin-right: 10px;
+}
+#header ul li button{
+  padding: 8px 15px;
+  background: #32C2CD;
+  border: none ;
+  border-radius: 5px;
+  font-family: arial;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+#header ul li a {
+  color: #b0b0b0;
+}
+#header ul li a img{
+  width: 40px ;
+  height: 40px;
+  border-radius: 50%;
+}
+ 
+
+#hero {
+  padding-top: 57px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hero .left1 {
+  position: fixed;
+  width: 16%;
+  background: #fff;
+  height: 100%;
+}
+
+#hero .left1 ul {
+  padding: 50px 0;
+
+}
+
+#hero .left1 ul li {
+  display: block;
+  height: 60px;
+}
+
+
+#hero .left1 ul li a {
+  padding: 20px 15px;
+   
+  display: block;
+  color: rgb(176, 176, 176);
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#hero .left1 ul li .fast{
+  background: #eee;
+}
+#hero .left1 ul li a span{
+  margin-left: 10px;
+  color: #000;
+  font-weight: 600;
+}
+
+#hero .left1 ul li a i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#hero .left1 ul li a:hover {
+  background: #eee;
+}
+
+#hero .right {
+  width: 78%;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+
+
+#hero .right .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+#hero .right .header h2{
+  text-transform: capitalize;
+}
+#hero .right .header .btn button{
+  padding: 10px 15px;
+  background: #32C2CD;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+#hero .right .header .btn button i{
+  margin-right: 6px;
+}
+
+
+
+
+#hero .search{
+  margin:30px 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+#hero .search .search-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero .search input{
+  padding: 15px 40% 15px 6px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  flex-basis: 50%;
+  
+}
+#hero .search .right{
+  flex-basis: 50%;
+  margin-top: 0px;
+  margin-right: 0;
+}
+
+#hero .search .right select{
+  padding: 15px 20px;
+  font-size: 16px;
+  background: #ddd;
+  border: none;
+  color: #000;
+  float: right;
+  border-radius: 5px;
+
+}
+
+
+#hero .body{
+  background: #fff;
+  padding: 40px;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#hero .body .items {
+   
+  text-align: center;
+  flex-basis: 250px;
+  margin-top: 25px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+#hero .body .items img{
+  width: 100%;
+  height: 250px;
+}
+#hero .body .items button {
+  padding: 8px 15px ;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 15px 0;
+  cursor: pointer;
+  background: transparent;
+} 
+#hero .body .items .btn-2{
+  color: rgb(238, 20, 20);
+}
+#hero .body .items button i{
+  margin-right: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
